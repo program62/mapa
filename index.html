@@ -218,7 +218,8 @@ function showChart(kraj) {
                         label: function(context) {
                             const label = context.label || '';
                             const value = context.parsed;
-                            return ' ' + label + ': ' + value + '%';
+                            const mezera = '';
+                            return mezera + value + '%';
                         }
                     }
                 }
@@ -231,7 +232,7 @@ function closePopup() {
     document.getElementById("popup-bg").style.display = "none";
 }
 </script>
-<footer style="text-align:center; margin-top:40px; font-size:16px; opacity:0.7; margin-top:80px; padding-bottom:10px;">
+<footer style="text-align:center; margin-top:40px; font-size:16px; opacity:0.7; margin-top:120px; padding-bottom:10px;">
 Studijní projekt
 </footer>
 <script>
